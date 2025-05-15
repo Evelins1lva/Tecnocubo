@@ -1,0 +1,122 @@
+2025-05-15 13:17:09,365 - INFO - Iniciando scraping da Tecnocubo
+2025-05-15 13:17:09,365 - INFO - ====== WebDriver manager ======
+2025-05-15 13:17:15,272 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-15 13:17:15,288 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-15 13:17:15,315 - INFO - There is no [win64] chromedriver "136.0.7103.94" for browser google-chrome "136.0.7103" in cache
+2025-05-15 13:17:15,315 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-15 13:17:15,369 - INFO - WebDriver version 136.0.7103.94 selected
+2025-05-15 13:17:15,374 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-15 13:17:15,375 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-15 13:17:15,443 - INFO - Driver downloading response is 200
+2025-05-15 13:17:15,553 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-15 13:17:16,461 - INFO - Driver has been saved in cache [C:\Users\evelin.silva\.wdm\drivers\chromedriver\win64\136.0.7103.94]
+2025-05-15 13:17:22,155 - INFO - Acessou a URL: https://www.tecnocubo.com.br/ofertas
+2025-05-15 13:17:22,180 - INFO - Encontrados 0 produtos
+2025-05-15 13:17:22,333 - INFO - Print da página salvo: pagina_ofertas.png
+2025-05-15 13:17:22,337 - INFO - Dados salvos em produtos_tecnocubo.json
+2025-05-15 13:17:24,474 - INFO - Navegador fechado
+2025-05-15 13:41:22,712 - INFO - Iniciando scraping da Tecnocubo
+2025-05-15 13:41:22,712 - INFO - ====== WebDriver manager ======
+2025-05-15 13:41:26,179 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-15 13:41:26,210 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-15 13:41:26,225 - INFO - Driver [C:\Users\evelin.silva\.wdm\drivers\chromedriver\win64\136.0.7103.94\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-15 13:41:28,309 - INFO - Acessou a URL: https://www.tecnocubo.com.br/ofertas
+2025-05-15 13:41:28,326 - INFO - Encontrados 15 produtos
+2025-05-15 13:41:28,385 - INFO - Produto: Creality Nebula Usb Camera Alta Definição - Preço: R$ 349,90
+2025-05-15 13:41:28,422 - INFO - Produto: Creality Plataforma Mesa PEI Magnetica Flexivel 235x235mm Adesivo Ender-3 V3 - Preço: R$ 169,90
+2025-05-15 13:41:28,459 - INFO - Produto: Filamento Impressão 3D Creality Hyper Pla Rainbow Arco-Íris Blossom Short 1kg - Preço: R$ 189,90
+2025-05-15 13:41:28,498 - INFO - Produto: Filamento Impressão 3D Creality Hyper Pla Rainbow Arco-Íris Spring Lake 1kg - Preço: R$ 189,90
+2025-05-15 13:41:28,536 - INFO - Produto: Creality Impressão 3D Sensor AI LiDAR Kit K1 Max - Preço: R$ 699,90
+2025-05-15 13:41:28,577 - INFO - Produto: Resina Impressora 3D Ked Ag83 Cinza 500g - Preço: R$ 96,90
+2025-05-15 13:41:28,616 - INFO - Produto: Creality Sistema de Extrusão Sprite Pro All Metal 300C - Preço: R$ 678,90
+2025-05-15 13:41:28,655 - INFO - Produto: Creality Kit Molas Metal Pretas (Antigas Amarelas) D8xL25 4un - Preço: R$ 14,90
+2025-05-15 13:41:28,699 - INFO - Produto: Creality Barra de Led Ender-3 S1 Pro e CR-10 SE - Preço: R$ 106,60
+2025-05-15 13:41:28,739 - INFO - Produto: Creality Nozzle Bico Kit 0,25 0,4 0,6 0,8 H13 Metal 5un - Preço: R$ 96,90
+2025-05-15 13:41:28,779 - INFO - Produto: Creality Kit Hotend Fan High Flow Sonic Pad Ender-3 S1 e Pro - Preço: R$ 193,90
+2025-05-15 13:41:28,818 - INFO - Produto: Creality Kit Hotend Fan High Flow Sonic Pad Ender-3 V2 - Preço: R$ 139,90
+2025-05-15 13:41:28,861 - INFO - Produto: Creality Camera AI K1 e K1 Max - Preço: R$ 199,90
+2025-05-15 13:41:28,903 - INFO - Produto: Creality Kit Bico Liga De Cobre 0,4 E 0,6 High Speed - Spider - Preço: R$ 38,70
+2025-05-15 13:41:29,130 - INFO - Produto: Creality Suporte de Carretel Spool com Balança - Preço: R$ 193,90
+2025-05-15 13:41:29,301 - INFO - Print salvo: pagina_ofertas.png
+2025-05-15 13:41:29,302 - INFO - Dados salvos em produtos_tecnocubo.json
+2025-05-15 13:41:31,463 - INFO - Navegador fechado
+2025-05-15 13:45:00,548 - INFO - Iniciando scraping da Tecnocubo
+2025-05-15 13:45:00,548 - INFO - ====== WebDriver manager ======
+2025-05-15 13:45:04,430 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-15 13:45:04,450 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-15 13:45:04,465 - INFO - Driver [C:\Users\evelin.silva\.wdm\drivers\chromedriver\win64\136.0.7103.94\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-15 13:45:05,787 - INFO - Acessou a URL: https://www.tecnocubo.com.br/ofertas
+2025-05-15 13:45:07,063 - INFO - Encontrados 15 produtos
+2025-05-15 13:45:07,325 - INFO - Print salvo: prints/1.jpeg
+2025-05-15 13:45:07,326 - INFO - Produto: Creality Nebula Usb Camera Alta Definição - Preço: R$ 349,90
+2025-05-15 13:45:07,547 - INFO - Print salvo: prints/2.jpeg
+2025-05-15 13:45:07,547 - INFO - Produto: Creality Plataforma Mesa PEI Magnetica Flexivel 235x235mm Adesivo Ender-3 V3 - Preço: R$ 169,90
+2025-05-15 13:45:07,667 - INFO - Print salvo: prints/3.jpeg
+2025-05-15 13:45:07,667 - INFO - Produto: Filamento Impressão 3D Creality Hyper Pla Rainbow Arco-Íris Blossom Short 1kg - Preço: R$ 189,90
+2025-05-15 13:45:07,823 - INFO - Print salvo: prints/4.jpeg
+2025-05-15 13:45:07,824 - INFO - Produto: Filamento Impressão 3D Creality Hyper Pla Rainbow Arco-Íris Spring Lake 1kg - Preço: R$ 189,90
+2025-05-15 13:45:07,970 - INFO - Print salvo: prints/5.jpeg
+2025-05-15 13:45:07,970 - INFO - Produto: Creality Impressão 3D Sensor AI LiDAR Kit K1 Max - Preço: R$ 699,90
+2025-05-15 13:45:08,106 - INFO - Print salvo: prints/6.jpeg
+2025-05-15 13:45:08,106 - INFO - Produto: Resina Impressora 3D Ked Ag83 Cinza 500g - Preço: R$ 96,90
+2025-05-15 13:45:08,258 - INFO - Print salvo: prints/7.jpeg
+2025-05-15 13:45:08,259 - INFO - Produto: Creality Sistema de Extrusão Sprite Pro All Metal 300C - Preço: R$ 678,90
+2025-05-15 13:45:08,393 - INFO - Print salvo: prints/8.jpeg
+2025-05-15 13:45:08,393 - INFO - Produto: Creality Kit Molas Metal Pretas (Antigas Amarelas) D8xL25 4un - Preço: R$ 14,90
+2025-05-15 13:45:08,512 - INFO - Print salvo: prints/9.jpeg
+2025-05-15 13:45:08,512 - INFO - Produto: Creality Barra de Led Ender-3 S1 Pro e CR-10 SE - Preço: R$ 106,60
+2025-05-15 13:45:08,616 - INFO - Print salvo: prints/10.jpeg
+2025-05-15 13:45:08,616 - INFO - Produto: Creality Nozzle Bico Kit 0,25 0,4 0,6 0,8 H13 Metal 5un - Preço: R$ 96,90
+2025-05-15 13:45:08,736 - INFO - Print salvo: prints/11.jpeg
+2025-05-15 13:45:08,737 - INFO - Produto: Creality Kit Hotend Fan High Flow Sonic Pad Ender-3 S1 e Pro - Preço: R$ 193,90
+2025-05-15 13:45:08,856 - INFO - Print salvo: prints/12.jpeg
+2025-05-15 13:45:08,856 - INFO - Produto: Creality Kit Hotend Fan High Flow Sonic Pad Ender-3 V2 - Preço: R$ 139,90
+2025-05-15 13:45:09,020 - INFO - Print salvo: prints/13.jpeg
+2025-05-15 13:45:09,020 - INFO - Produto: Creality Camera AI K1 e K1 Max - Preço: R$ 199,90
+2025-05-15 13:45:09,187 - INFO - Print salvo: prints/14.jpeg
+2025-05-15 13:45:09,187 - INFO - Produto: Creality Kit Bico Liga De Cobre 0,4 E 0,6 High Speed - Spider - Preço: R$ 38,70
+2025-05-15 13:45:09,325 - INFO - Print salvo: prints/15.jpeg
+2025-05-15 13:45:09,325 - INFO - Produto: Creality Suporte de Carretel Spool com Balança - Preço: R$ 193,90
+2025-05-15 13:45:09,533 - INFO - Print salvo: pagina_ofertas.png
+2025-05-15 13:45:09,534 - INFO - Dados salvos em produtos_tecnocubo.json
+2025-05-15 13:45:11,680 - INFO - Navegador fechado
+2025-05-15 13:50:02,396 - INFO - Iniciando scraping da Tecnocubo
+2025-05-15 13:50:02,397 - INFO - ====== WebDriver manager ======
+2025-05-15 13:50:06,047 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-15 13:50:06,074 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-15 13:50:06,091 - INFO - Driver [C:\Users\evelin.silva\.wdm\drivers\chromedriver\win64\136.0.7103.94\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-15 13:50:08,415 - INFO - Acessou a URL: https://www.tecnocubo.com.br/ofertas
+2025-05-15 13:50:08,430 - INFO - Encontrados 15 produtos
+2025-05-15 13:50:08,596 - INFO - Print salvo: prints/1.jpeg
+2025-05-15 13:50:08,596 - INFO - Produto: Creality Nebula Usb Camera Alta Definição - Preço: R$ 349,90
+2025-05-15 13:50:08,738 - INFO - Print salvo: prints/2.jpeg
+2025-05-15 13:50:08,738 - INFO - Produto: Creality Plataforma Mesa PEI Magnetica Flexivel 235x235mm Adesivo Ender-3 V3 - Preço: R$ 169,90
+2025-05-15 13:50:08,865 - INFO - Print salvo: prints/3.jpeg
+2025-05-15 13:50:08,865 - INFO - Produto: Filamento Impressão 3D Creality Hyper Pla Rainbow Arco-Íris Blossom Short 1kg - Preço: R$ 189,90
+2025-05-15 13:50:09,111 - INFO - Print salvo: prints/4.jpeg
+2025-05-15 13:50:09,111 - INFO - Produto: Filamento Impressão 3D Creality Hyper Pla Rainbow Arco-Íris Spring Lake 1kg - Preço: R$ 189,90
+2025-05-15 13:50:09,385 - INFO - Print salvo: prints/5.jpeg
+2025-05-15 13:50:09,385 - INFO - Produto: Creality Impressão 3D Sensor AI LiDAR Kit K1 Max - Preço: R$ 699,90
+2025-05-15 13:50:09,535 - INFO - Print salvo: prints/6.jpeg
+2025-05-15 13:50:09,535 - INFO - Produto: Resina Impressora 3D Ked Ag83 Cinza 500g - Preço: R$ 96,90
+2025-05-15 13:50:09,691 - INFO - Print salvo: prints/7.jpeg
+2025-05-15 13:50:09,691 - INFO - Produto: Creality Sistema de Extrusão Sprite Pro All Metal 300C - Preço: R$ 678,90
+2025-05-15 13:50:09,805 - INFO - Print salvo: prints/8.jpeg
+2025-05-15 13:50:09,805 - INFO - Produto: Creality Kit Molas Metal Pretas (Antigas Amarelas) D8xL25 4un - Preço: R$ 14,90
+2025-05-15 13:50:09,921 - INFO - Print salvo: prints/9.jpeg
+2025-05-15 13:50:09,921 - INFO - Produto: Creality Barra de Led Ender-3 S1 Pro e CR-10 SE - Preço: R$ 106,60
+2025-05-15 13:50:10,050 - INFO - Print salvo: prints/10.jpeg
+2025-05-15 13:50:10,050 - INFO - Produto: Creality Nozzle Bico Kit 0,25 0,4 0,6 0,8 H13 Metal 5un - Preço: R$ 96,90
+2025-05-15 13:50:10,184 - INFO - Print salvo: prints/11.jpeg
+2025-05-15 13:50:10,184 - INFO - Produto: Creality Kit Hotend Fan High Flow Sonic Pad Ender-3 S1 e Pro - Preço: R$ 193,90
+2025-05-15 13:50:10,300 - INFO - Print salvo: prints/12.jpeg
+2025-05-15 13:50:10,301 - INFO - Produto: Creality Kit Hotend Fan High Flow Sonic Pad Ender-3 V2 - Preço: R$ 139,90
+2025-05-15 13:50:10,411 - INFO - Print salvo: prints/13.jpeg
+2025-05-15 13:50:10,411 - INFO - Produto: Creality Camera AI K1 e K1 Max - Preço: R$ 199,90
+2025-05-15 13:50:10,537 - INFO - Print salvo: prints/14.jpeg
+2025-05-15 13:50:10,537 - INFO - Produto: Creality Kit Bico Liga De Cobre 0,4 E 0,6 High Speed - Spider - Preço: R$ 38,70
+2025-05-15 13:50:10,648 - INFO - Print salvo: prints/15.jpeg
+2025-05-15 13:50:10,648 - INFO - Produto: Creality Suporte de Carretel Spool com Balança - Preço: R$ 193,90
+2025-05-15 13:50:10,793 - INFO - Print salvo: pagina_ofertas.png
+2025-05-15 13:50:10,793 - INFO - Dados salvos em produtos_tecnocubo.json
+2025-05-15 13:50:12,935 - INFO - Navegador fechado
