@@ -1,0 +1,32 @@
+🔍 O que esse script faz?
+O TecnocuboSpider é um robô de coleta automatizada (web scraper) feito em Python usando a biblioteca Selenium. Ele acessa a página de ofertas do site Tecnocubo, coleta informações sobre os produtos disponíveis, como:
+* Nome do produto
+* Preço atual
+* URL da página do produto
+* Printscreen individual do produto
+ E por fim, salva tudo em um arquivo JSON estruturado, além de tirar um print geral da página.
+
+⚙️  Qual a lógica da coleta?
+O script acessa a URL padrão https://www.tecnocubo.com.br/ofertas , Ele aguarda os produtos carregarem com segurança usando WebDriverWait.Portanto cada item com a classe:product, ele tenta extrair:
+* Nome (.product-name)
+* Preço (.current-price)
+Link do produto (<a href="...">)
+* Cada produto é printado e salvo na pasta /prints
+* Todos os dados são armazenados num dicionário e salvos em produtos_tecnocubo.json
+  📥 O que ele precisa para rodar?
+  * Python 3.8+
+
+As seguintes bibliotecas instaladas:
+pip install selenium webdriver-manager
+📤 O que ele devolve?
+* Um arquivo produtos_tecnocubo.json contendo uma lista de produtos
+* Prints de todos os produtos encontrados na pasta /prints
+* Um print geral da página salvo como pagina_ofertas.png
+
+* Logs detalhados salvos em tecnocubo_coleta.log
+  
+  OBSERVAÇÃO:
+  1-O código está encapsulado numa classe Spider, inspirada na arquitetura do Scrapy
+  2-Utiliza tratamento de exceções específicas (NoSuchElementException) para maior controle de erros
+  3-O navegador roda em modo headless (sem abrir janela visual)
+* Fácil de adaptar para outros sites ou páginas com estrutura semelhante
