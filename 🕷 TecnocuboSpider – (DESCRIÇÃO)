@@ -7,7 +7,7 @@ O TecnocuboSpider é um robô de coleta automatizada (web scraper) feito em Pyth
  E por fim, salva tudo em um arquivo JSON estruturado, além de tirar um print geral da página.
 
 ⚙️  Qual a lógica da coleta?
-O script acessa a URL padrão https://www.tecnocubo.com.br/ofertas , Ele aguarda os produtos carregarem com segurança usando WebDriverWait.Portanto cada item com a classe:product, ele tenta extrair:
+O script acessa a URL padrão "https://www.tecnocubo.com.br/ofertas" , Ele aguarda os produtos carregarem com segurança,portanto cada item com a classe:product, ele tenta extrair:
 * Nome (.product-name)
 * Preço (.current-price)
 Link do produto (<a href="...">)
@@ -19,11 +19,25 @@ Link do produto (<a href="...">)
 As seguintes bibliotecas instaladas:
 pip install selenium webdriver-manager
 
+🔄 Integração com Pipeline
+O TecnocuboSpider está pronto para ser integrado em pipelines de dados, automações ou orquestradores como Airflow, Dagster, GitHub Actions, Crontab e outros ambientes CI/CD.
+📥 Input (o que o script precisa)
+Nenhum input manual: a URL está embutida no código
+Permissão para rodar navegador (modo headless)
+Bibliotecas:
+- pip install selenium webdriver-manager
+
 📤 O que ele devolve?
 * Um arquivo produtos_tecnocubo.json contendo uma lista de produtos
 * Prints de todos os produtos encontrados na pasta /prints
 * Um print geral da página salvo como pagina_ofertas.png
 * Logs detalhados salvos em tecnocubo_coleta.log
+
+📤 Output (o que o script gera)
+Após a execução, o script devolve: produtos_tecnocubo.json – JSON com os dados dos produtos
+*/prints/ – prints individuais de cada produto
+*pagina_ofertas.png – screenshot geral da página
+*tecnocubo_coleta.log – log completo da execução
   
   OBSERVAÇÃO:
   1-O código está encapsulado numa classe Spider, inspirada na arquitetura do Scrapy
