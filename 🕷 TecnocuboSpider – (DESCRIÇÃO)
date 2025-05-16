@@ -12,12 +12,7 @@ O script acessa a URL padrão "https://www.tecnocubo.com.br/ofertas" , Ele aguar
 * Preço (.current-price)
 Link do produto (<a href="...">)
 * Cada produto é printado e salvo na pasta /prints
-* Todos os dados são armazenados num dicionário e salvos em produtos_tecnocubo.json
-
-  📥 O que ele precisa para rodar?
-  * Python 3.8+
-As seguintes bibliotecas instaladas:
-pip install selenium webdriver-manager
+* Todos os dados são armazenados num dicionário e salvos em produtos_tecnocubo.json.
 
 🔄 Integração com Pipeline
 O TecnocuboSpider está pronto para ser integrado em pipelines de dados, automações ou orquestradores como Airflow, Dagster, GitHub Actions, Crontab e outros ambientes CI/CD.
