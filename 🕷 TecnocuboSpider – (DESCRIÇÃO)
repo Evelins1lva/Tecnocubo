@@ -13,16 +13,16 @@ O script acessa a URL padrão https://www.tecnocubo.com.br/ofertas , Ele aguarda
 Link do produto (<a href="...">)
 * Cada produto é printado e salvo na pasta /prints
 * Todos os dados são armazenados num dicionário e salvos em produtos_tecnocubo.json
+
   📥 O que ele precisa para rodar?
   * Python 3.8+
-
 As seguintes bibliotecas instaladas:
 pip install selenium webdriver-manager
+
 📤 O que ele devolve?
 * Um arquivo produtos_tecnocubo.json contendo uma lista de produtos
 * Prints de todos os produtos encontrados na pasta /prints
 * Um print geral da página salvo como pagina_ofertas.png
-
 * Logs detalhados salvos em tecnocubo_coleta.log
   
   OBSERVAÇÃO:
