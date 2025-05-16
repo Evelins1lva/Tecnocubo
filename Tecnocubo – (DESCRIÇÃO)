@@ -14,6 +14,13 @@ Link do produto (<a href="...">)
 * Cada produto é printado e salvo na pasta /prints
 * Todos os dados são armazenados num dicionário e salvos em produtos_tecnocubo.json.
 
+🔄 Pipeline de Coleta – Tecnocubo
+Este projeto implementa uma pipeline de coleta automatizada de dados (web scraping) com Selenium, estruturada nas etapas ETL (Extract, Transform, Load):
+* Extract: Acessa a página de ofertas da Tecnocubo (https://www.tecnocubo.com.br/ofertas) usando um navegador headless controlado por Selenium.
+* Transform: Para cada item da página, extrai nome, preço e URL do produto, além de capturar uma screenshot individual.
+* Load: Todos os dados são armazenados em produtos_tecnocubo.json. Os prints são salvos na pasta /prints, e a página completa é capturada em pagina_ofertas.png.
+A execução é automatizada, com logs registrados em tecnocubo_coleta.log e tratamento de exceções específicas para garantir maior estabilidade. 
+
 📥 Input (o que o script precisa)
 Nenhum input manual: a URL está embutida no código
 Permissão para rodar navegador (modo headless)
