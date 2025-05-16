@@ -14,8 +14,6 @@ Link do produto (<a href="...">)
 * Cada produto é printado e salvo na pasta /prints
 * Todos os dados são armazenados num dicionário e salvos em produtos_tecnocubo.json.
 
-🔄 Integração com Pipeline
-O TecnocuboSpider está pronto para ser integrado em pipelines de dados, automações ou orquestradores como Airflow, Dagster, GitHub Actions, Crontab e outros ambientes CI/CD.
 📥 Input (o que o script precisa)
 Nenhum input manual: a URL está embutida no código
 Permissão para rodar navegador (modo headless)
